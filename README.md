@@ -9,6 +9,6 @@ Although there isn't too much to see, in this _example project_ I could:
 - Manage user access
 - Install some apps like PostgreSQL, Git and Apache 
 
-All these steps were done locally and in the **AWS Lightsail** and **AWS EC2** 
+All these steps were done locally, in the **AWS Lightsail** and **AWS EC2** 
 
 _This README is just a very simple initial version. The idea is to let documented all was done._

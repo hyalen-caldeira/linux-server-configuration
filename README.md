@@ -1,5 +1,5 @@
 # linux-server-configuration
-Linux configuration using _Virtual Box, Vagrant, AWS Lightsail, AWS EC2 and many others ..._
+Linux (Ubuntu) configuration using _Virtual Box, Vagrant, AWS Lightsail, AWS EC2 and many others ..._
 
 Although there isn't too much to see, in this _example project_ I could:
 - Configure a virtual machine

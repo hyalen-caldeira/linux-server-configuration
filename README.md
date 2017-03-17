@@ -17,5 +17,12 @@ Once installed the Apache, procede with the following basic configurations:
   - ServerTokens Prod
 - By default your apache web server will show all the content of the document root directory if it does not have an index file. This feature can be turn off for a specific directory through “options directive” available in the Apache configuration file.
   - Directory /var/www/html Options -Indexes /Directory
+- Configure Virtual Host
+  - Create the dirctory structure
+    - mkdir -p /var/www/hyalen.us/public_html
+  - Create the configuration file for eache one of your VH
+    - cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/hyalen.us.conf
+  - Active the new VH file
+    - a2ensite hyalen.us.conf
 
 _This README is just a very simple initial version. The idea is to let documented all was done._
